@@ -1,0 +1,22 @@
+#!/bin/bash
+
+setxkbmap "$1"
+
+if [[ ${1} == 'de' ]]
+then
+	zenity --warning  --timeout=1 --text="Deutsche Layout"
+fi
+
+if [[ ${1} == 'us' ]]
+then
+	zenity --warning  --timeout=1 --text="USA Keyboard Layout"
+fi
+
+if [[ ${1} == 'ru' ]]
+then
+	zenity --warning  --timeout=1 --text="Русская раскладка!"
+fi
+
+
+
+
