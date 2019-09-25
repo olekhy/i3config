@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+
+nmcli c ${1} 0c425f72-1db7-4872-aeff-73c95b309bd3
+
+
